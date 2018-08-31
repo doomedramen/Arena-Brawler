@@ -1,0 +1,26 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="Arena Brawler"
+run/main_scene="res://screens/title_screen/TitleScreen.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
+
+[rendering]
+
+quality/intended_usage/framebuffer_allocation=0
+environment/default_clear_color=Color( 0.14902, 0.192157, 0.219608, 1 )
+environment/default_environment="res://default_env.tres"
